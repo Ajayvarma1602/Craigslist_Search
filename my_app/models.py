@@ -2,11 +2,11 @@ from django.db import models
 
 # Create your models here.
 class Search(models.Model):
-    Search=models.CharField(max_length=500)
-    created=models.DateTimeField(auto_now=True)
+    search=models.CharField(max_length=500)
+    created=models.DateTimeField(auto_now_add=True)
     
     def __str__(self):
-        return '{}'.format(self.Search)
+        return '{}'.format(self.search)
 
     
     
