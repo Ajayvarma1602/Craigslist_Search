@@ -1,1 +1,1 @@
-web: gunicorn Craigslist_Search.wsgi --log-file - --bind 0.0.0.0:$PORT
+web: gunicorn Craigslist_Search.wsgi 
