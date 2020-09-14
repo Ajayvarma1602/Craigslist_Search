@@ -1,1 +1,1 @@
-web: gunicorn Craigslist_Search.wsgi
+web: 'gunicorn Craigslist_Search.wsgi'
